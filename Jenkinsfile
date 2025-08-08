@@ -8,9 +8,9 @@ pipeline {
 
     environment {
         REMOTE_USER = 'ubuntu'                      // change as needed
-        REMOTE_HOST = '3.108.64.225'                     // target application server IP
+        REMOTE_HOST = '3.110.158.190'                     // target application server IP
         REMOTE_DIR  = '/home/ubuntu/app'            // remote directory
-        SSH_KEY     = '/home/jenkins/mumbai.pem'       // Jenkins server private key path
+        SSH_KEY     = '/home/ubuntu/mumbai.pem'       // Jenkins server private key path
     }
 
     stages {
